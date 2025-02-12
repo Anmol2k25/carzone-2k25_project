@@ -1,0 +1,117 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$870000$hIzRylek9e7bxRqLPiqELs$w1jQfg8H12RjtMvN2Ww8Vb0sRSH7x23cugO75mQ8CNw=",
+        "last_login": "2025-01-31T06:36:50.920Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-01-30T06:25:15.698Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9l36vy06ej7ofnff6vt5tw39ervoc0t9",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyHAwpZ69N5vICxspWpoUtqT8d9tkx50jvPezFuEuK0lbI2XMGVxFVpcfjuK6cn1APkR632Waa7rMpE8FHnSJoc58-t2un8HJbayr40iw1plH50DBAu9xc4D9ns6tAbJIiWTWLNXxoB3ACM4Rq_HZInE5wudcDZh:1tdO07:u4eQlaVGa31d-_ZBR8PerWM6RCEdX0r00Bo7IQ-zSt8",
+        "expire_date": "2025-02-13T06:26:07.168Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "n7uh9phsogow8tzxl71nh10onhc295s9",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyHAwpZ69N5vICxspWpoUtqT8d9tkx50jvPezFuEuK0lbI2XMGVxFVpcfjuK6cn1APkR632Waa7rMpE8FHnSJoc58-t2un8HJbayr40iw1plH50DBAu9xc4D9ns6tAbJIiWTWLNXxoB3ACM4Rq_HZInE5wudcDZh:1tdke2:_wDk0dtKivvd6mhHOCoa4846lm_iSDMP5Z2Kf-IcA-E",
+        "expire_date": "2025-02-14T06:36:50.938Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Ganesh",
+        "last_name": "Kumar",
+        "designation": "Createor",
+        "photo": "photo/2025/01/31/bapa.jpeg",
+        "facebook_link": "http://www.bapa_ganesh@gmail.com",
+        "twitter_link": "http://www.bapa_ganesh@gmail.com",
+        "google_plus_link": "http://www.bapa_ganesh@gmail.com",
+        "created_date": "2025-01-31T06:01:53.378Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Joyti",
+        "last_name": "Kumar",
+        "designation": "Tester",
+        "photo": "photo/2025/01/31/gCaFRASj_400x400.jpg",
+        "facebook_link": "http://joyoti@gmail.com",
+        "twitter_link": "http://joyoti@gmail.com",
+        "google_plus_link": "http://joyoti@gmail.com",
+        "created_date": "2025-01-31T06:51:08.985Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-01-31T05:43:39.805Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "GaneshKumar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-01-31T06:01:53.382Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Ganesh Kumar",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-01-31T06:51:08.988Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Joyti Kumar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
